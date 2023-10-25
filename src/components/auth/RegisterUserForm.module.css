@@ -1,0 +1,93 @@
+.UserForm {
+    background-color: rgb(88, 88, 88);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+
+}
+.UserFormItem {
+    display: block;
+    width: 300px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    outline:none;
+}
+.ItemBox { 
+    border: solid 1px rgb(209, 125, 0);
+    margin: 5px;
+}
+
+.Title {
+    color: white;
+}
+
+.LabelBox { 
+    color: rgb(209, 125, 0);
+}
+
+.MainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .Btn {
+    display: block;
+    margin-top: 50px;
+    padding: 20px;
+    border: solid 1px rgb(209, 125, 0);
+    background: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+
+
+.Btn {
+    display: block;
+    margin-top: 50px;
+    padding: 20px;
+    border: solid 1px rgb(209, 125, 0);
+    background: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.3s;
+}
+
+.Btn:disabled:hover {
+    transition: 0.2s;
+    border: solid 1px rgb(209, 0, 0);
+    background: rgb(209, 0, 0);
+}
+
+.Btn:hover {
+    transition: 0.2s;
+    border: solid 1px rgb(209, 125, 0);
+    background: rgb(209, 125, 0);
+}
+
+.checkboxForm {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;   
+}
+
+.Error {
+    color: rgb(255, 2, 2);
+}
+
+.Error:nth-child(2) {
+   margin-bottom: 5px;
+}
+
+.notError {
+    color: rgb(2, 255, 36);
+}
